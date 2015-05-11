@@ -1,0 +1,223 @@
+@()
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <title>Damien Engels</title>
+
+            <!-- CSS  -->
+        <link href="@routes.Assets.at("lib/materialize/bin/materialize.css")" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="@routes.Assets.at("stylesheets/style.css")" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+
+
+    <body>
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <div class="section">
+                    <h1 class="header center black-text">Damien Engels</h1>
+
+                    <div class="row center">
+                        <h5 class="header col s12 light">Enthusiastic hacker</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="section">
+
+                <div class="row">
+
+                        <!-- Contacts -->
+                    <div class="col s12 m4 l4 left">
+                        <h6>Contact</h6>
+                        <p>
+                            <a href="mailto:engelsdamien@@gmail.com">
+                                <i class="left mdi-communication-email"></i>
+                                engelsdamien@@gmail.com
+                            </a>
+                        </p>
+                        <p>
+                            <a href="http://ch.linkedin.com/in/engelsdamien">
+                                <i class="left mdi-communication-email"></i>
+                                ch.linkedin.com/in/engelsdamien
+                            </a>
+                        </p>
+                        <p>
+                            <a href="http://github.com/paullepoulpe">
+                                <i class="left mdi-communication-email"></i>
+                                github.com/paullepoulpe
+                            </a>
+                        </p>
+                        <p>
+                            <a href="http://dengels.ch">
+                                <i class="left mdi-communication-email"></i>
+                                dengels.ch
+                            </a>
+                        </p>
+                    </div>
+
+                        <!-- Profile card -->
+                    <div class="col s12 m4 l4">
+                        <h6>Profile</h6>
+
+                        <div class="card blue-grey darken-1 center">
+                            <div class="card-content white-text">
+                                <img src="@routes.Assets.at("images/profile.jpeg")" class="circle" width="100" height="100">
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                    labore.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="@routes.Assets.at("doc/cv.pdf")">My Resume</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <!-- Skills -->
+                    <div class="col s12 m4 l4">
+                        <h6>Skills</h6>
+                        <ul class="collapsible popout" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header"><i class="mdi-image-filter-drama"></i>Languages</div>
+                                <div class="collapsible-body">
+                                    <div class="row container">
+                                        <div class="col s12">
+                                            <div class="progress">
+                                                <div class="determinate" style="width : 100 %"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col s12">
+                                            <div class="progress">
+                                                <div class="determinate" style="width : 80 %"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col s12">
+                                            <div class="progress">
+                                                <div class="determinate" style="width : 60 %"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col s12">
+                                            <div class="progress">
+                                                <div class="determinate" style="width : 40 %"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col s12">
+                                            <div class="progress">
+                                                <div class="determinate" style="width : 20 %"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="mdi-maps-place"></i>Frameworks</div>
+                                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="mdi-social-whatshot"></i>Third</div>
+                                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <br><br>
+
+            <div class="section">
+                <div class="row">
+                    <h2 class="header center">Projects</h2>
+
+                    <div class="col s12 m4 l4">
+                        <div class="section">
+                            <img data-caption="Tasti connnects those who are hungry wiht those who like to cook." class="z-depth-1 materialboxed responsive-img" src="@routes.Assets.at("images/tasti.png")">
+                            <h5 class="center">
+                                <a href="http://tasti.ch">Tasti</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="section">
+                            <img data-caption="Gain insights into the relevant events that happen aroung the world with CrossStream." class="z-depth-1 materialboxed responsive-img" src="@routes.Assets.at("images/crossstream.png")">
+                            <h5 class="center">
+                                <a href="http://crossstream.ch">CrossStream</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="section">
+                            <img data-caption="Search code across languages with DevSearch." class="z-depth-1 materialboxed responsive-img" src="@routes.Assets.at("images/devsearch.png")">
+                            <h5 class="center">
+                                <a href="http://devsearch.ch">DevSearch</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="section">
+                            <img data-caption="MusicBot is the social jukebox that allows you to share music with your friends." class="z-depth-1 materialboxed responsive-img" src="@routes.Assets.at("images/musicbot.png")">
+                            <h5 class="center">
+                                <a href="http://musicbot.ch">MusicBot</a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="section">
+                            <img data-caption="Create tickets for your small venues." class="z-depth-1 materialboxed responsive-img" src="@routes.Assets.at("images/tickets.png")">
+                            <h5 class="center">
+                                <a href="http://tickets.dengels.ch">Tickets</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section">
+                <div class="row">
+                    <h2 class="header center">Github Contributions</h2>
+
+                    <div id="github-contributions" class="col s12 center">
+                        <div class="preloader-wrapper big active">
+                            <div class="spinner-layer spinner-blue-only">
+                                <div class="circle-clipper left">
+                                    <div class="circle"></div>
+                                </div><div class="gap-patch">
+                                <div class="circle"></div>
+                            </div><div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <footer class="page-footer">
+            <div class="footer-copyright">
+                <div class="container">
+                    Made by <a href="http://dengels.ch">Damien Engels</a>
+                </div>
+            </div>
+        </footer>
+
+
+            <!--  Scripts-->
+        <script src="@routes.Assets.at("lib/jquery/dist/jquery.js")"></script>
+        <script src="@routes.Assets.at("lib/materialize/bin/materialize.js")"></script>
+        <script src="@routes.Assets.at("scripts/init.js")"></script>
+
+    </body>
+</html>
